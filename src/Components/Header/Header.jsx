@@ -5,6 +5,7 @@ import { UserPlus } from "phosphor-react";
 import Avatar from "@mui/material/Avatar";
 import Modal from "@mui/material/Modal";
 
+
 const Header = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
