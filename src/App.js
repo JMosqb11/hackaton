@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./Components/Header/Header";
-import Creation from "./Components/Creation/Creation"
+// import Creation from "./Components/Creation/Creation"
 import News from "./Components/News/News";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header/>
       <News/>
-      <Creation/>
+      {/* <Creation/> */}
     </div>
   );
 }

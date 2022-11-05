@@ -14,7 +14,7 @@ const News = () => {
 
 
         <div className='container-news-div'>
-            
+
             <Card className="card-news">
             <CardMedia className="card-img-news" component="img" image="https://images.unsplash.com/photo-1661961110372-8a7682543120?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="green iguana"/>
             <CardContent>
@@ -27,8 +27,8 @@ const News = () => {
                 species, ranging across all continents except Antarctica
                 </p>
 
-                <h5 className='card-author-news'>author</h5>
-                <h5 className='card-date-news'>date</h5>
+                <h5 className='card-author-news fa'>author</h5>
+                <h5 className='card-date-news fa'>date</h5>
             </CardContent>
 
             <CardActions>
