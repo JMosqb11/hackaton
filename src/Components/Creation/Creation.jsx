@@ -7,10 +7,10 @@ const Creation = () => {
 
         <div className='creation-inform'>
     <input className="creation-imagen" type="file" allow="jpg" alt="Imagen" />
-     <input className="creation-titulo" type="text" titulo placeholder="agregue imagen" />
+     <input className="creation-titulo" type="text" titulo placeholder="Agregue el Titulo" />
      </div>
      
-     <textarea className="creation-description" name="description" id="description" cols="30" rows="10">SAPO</textarea>
+     <textarea className="creation-description" name="description" id="description" cols="30" rows="10" placeholder="Escirbe tu encabezado"></textarea>
 
      <div className='creation-buttons'>
          <input className="creation-date" type="date"/>
