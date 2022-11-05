@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container-News{
+    width: 100%;
+    height: 100vh;
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-news-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 12px;
+    gap: 13px;
+}
+
+.card-btn-news{
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+.card-img-news{
+    height: 140;
+}
+
+.card-news{
+    max-width: 345px;
+}
+
+.description-news{
+    margin-bottom: 10px;
+}

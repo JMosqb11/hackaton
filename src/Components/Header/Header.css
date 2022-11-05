@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.container-header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   font-family: 'Open Sans', sans-serif;
+   margin: 0px 40px 0px 0px;
+}
+
+.accuont-header{
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.User-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+
+.plus-header{
+    cursor: pointer;
+}
+
+.fi{
+    margin: 0;
+}
+
+.logo-header{
+    margin-left:20px;
+}
+
+.avatar-header{
+    margin-right: 5px;
+}
+
+
+
